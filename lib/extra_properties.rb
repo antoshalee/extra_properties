@@ -1,0 +1,2 @@
+module ExtraProperties
+end
