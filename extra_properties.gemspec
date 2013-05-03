@@ -7,8 +7,8 @@ require "extra_properties/version"
 Gem::Specification.new do |s|
   s.name        = "extra_properties"
   s.version     = ExtraProperties::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["antoshalee"]
+  s.email       = ["antoshalee@gmail.com"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of ExtraProperties."
   s.description = "TODO: Description of ExtraProperties."
