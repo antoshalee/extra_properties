@@ -17,12 +17,8 @@ in your config/application.rb:
 ```ruby
 config.active_record.schema_format = :sql
 ```
-and finally migration:
-```ruby
-def up
-  execute "CREATE INDEX products_properties ON products USING GIN(properties)"
-end
-def down
-  execute "DROP INDEX products_properties"
-end
+and finally:
+```sh
+rails g hstore setup
+rake db:migrate
 ```
