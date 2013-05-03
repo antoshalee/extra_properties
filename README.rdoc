@@ -1,3 +1,8 @@
 = ExtraProperties
 
-This project rocks and uses MIT-LICENSE.
+ExtraProperties gem simplifies management and storing of dynamic properties of ActiveRecord models.
+
+Consider an online shop application. The central entity of such apps is usually Product. Assume that products may have different sets of properties depending on their category. The classic approach to implement such behaviour is Entity-Attribute-Value model (EAV). However EAV requires additional tables and relations which are difficult to maintain and lead to complex and ineffective SQL-queries.
+
+ExtraProperties' approach is free of EAV model. It offers extra properties storing by means of Postgres {hstore extension}[http://www.postgresql.org/docs/9.1/static/hstore.html].
+
