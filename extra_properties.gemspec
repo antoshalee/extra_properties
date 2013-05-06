@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Anton Lee"]
   s.email       = ["antoshalee@gmail.com"]
   s.homepage    = "https://github.com/antoshalee/extra_properties"
-  s.summary     = "TODO: Summary of ExtraProperties."
-  s.description = "TODO: Description of ExtraProperties."
+  s.summary     = "Manage dynamic attributes with HStore"
+  s.description = "Manage dynamic attributes with HStore"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
