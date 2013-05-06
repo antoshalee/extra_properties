@@ -3,7 +3,7 @@ PATH
   specs:
     extra_properties (0.0.0)
       pg
-      rails (~> 3.2.13)
+      rails (~> 3.0)
 
 GEM
   remote: http://rubygems.org/
