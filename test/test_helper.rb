@@ -23,7 +23,6 @@ Spork.each_run do
   end
 
   Dir["#{File.dirname(__FILE__)}/../lib/extra_properties/*.rb"].each do |file|
-    puts file
     load file
   end
 
