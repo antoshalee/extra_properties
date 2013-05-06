@@ -46,4 +46,11 @@ class ExtraProperties::ManagerTest < ActiveSupport::TestCase
     assert_equal ExtraProperties::PropertyTypes::StringType, properties[3].class
   end
 
+  test "should return properties required in schema definition" do
+    manager = ExtraProperties::Manager.new @schema, @db_values
+    required_properties = manager.required_properties
+    assert_equal 2, required_properties.length
+    assert_equal ExtraProperties::PropertyTypes::DateType, properties[0].class
+  end
+
 end
